@@ -1,0 +1,10 @@
+@import 'functions';
+@import 'variables';
+
+@font-face {
+    font-family: 'Lab font';
+    font-style: normal;
+    font-weight: 350;
+    font-display: $fa-font-display;
+    src: url('#{$fa-font-path}/ScenarieRegular-owm9z.ttf') format('truetype');
+  }

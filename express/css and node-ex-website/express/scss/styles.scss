@@ -1,0 +1,50 @@
+@import "./fontawesome.scss";
+@import "./regular.scss";
+@import "./custom-variables.scss";
+@import url(../css/all.min.css);
+
+
+p {
+    color: $updated-element-color;
+    font-family: 'Lab font';
+    letter-spacing: 1px;
+};
+
+.modified-navbar {
+    background-color: $updated-element-color;
+    transition: all 1s ease-in-out;
+}
+
+.modified-navbar-hidden {
+    top: -100px;
+}
+
+span{
+    float: right;
+}
+
+button {
+    padding: 10px 20px;
+    border: $updated-border;
+    border-radius: $updated-border-radius;
+}
+
+
+
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 90px;
+    right: 40px; 
+    cursor: pointer; 
+    color: #6c6a6a;
+  }
+
+
+
+
+
+
+
+
+
+

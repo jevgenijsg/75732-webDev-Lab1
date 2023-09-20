@@ -1,0 +1,13 @@
+{
+  "name": "node-lab-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run sass && node server.js",
+    "sass": "sass \"express/css and node-ex-website/express/scss/styles.scss\" \"express/css and node-ex-website/express/css/styles.css\""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sass": "^1.67.0"
+  }
+}
